@@ -1,0 +1,111 @@
+.logo img{
+    /*config da logo */
+    max-width: 415px; max-height: 400px;
+    position:relative;
+    border-radius: 70px;
+    top: 15px;
+    margin: 0%;
+    padding: 5px;
+}
+
+main{
+    /* config geral*/
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+body{
+    /*config geral */
+    text-decoration: solid;
+    background-image: linear-gradient(to left,#736A62,#D9C9BA, #BFB0A3);
+    text-align: center;
+    font-size: 25PX;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333 ;
+   
+}
+.menu{ 
+    /*estilizacao do menu em geral*/
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 8px 32px 0 rgba(108, 108, 109, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 60px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    top: 0px;
+    margin: 1%;
+    color: #333;
+    padding: 4px;
+    list-style: none;
+    font-size: 40px;
+    display: inline-flex;
+}
+
+    
+.menu li a{
+    /*estilizacao de ancora*/
+    border-radius: 100px;
+    color: #333; text-decoration: none; padding: 5px 10px ;display: block;
+}
+
+.menu li a:hover {
+    /*config dos efeitos menu */ 
+    background: #333;
+    color: #D9C9BA;
+    -webkit-box-flex: initial;
+}
+
+.titulo h1{ 
+    /*config do titulo */
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 8px 32px 0 rgba(108, 108, 109, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 60px;
+    border: 3px solid rgba( 255, 255, 255, 0.18 );
+    top: 20px;
+    margin: 1%;
+    color: #333;
+    padding: 0px;
+    font-size: 60px;
+
+}
+/*config da animaco*/
+h1::after{
+    content: '|';
+    margin-left: 5px;
+    animation: pisca .7s infinite;
+    padding: 0px;
+    color: #333;
+    border-radius: 1px;  
+
+}
+/*efeitos da barra*/
+@keyframes pisca {
+0%, 100%{
+    opacity: 1;
+}
+50%{
+    opacity: 0;
+}
+}
+    
+
+.comida img{
+    /*config da imagen 5 pra mexer so ela */
+    max-width: 410px; max-height: 400px;
+    position:relative;
+    border-radius: 60px;
+    top: 0px;
+    margin: 2%;
+    position: relative;
+    padding: 0px;
+
+}
+
+
+
+
+
+
+

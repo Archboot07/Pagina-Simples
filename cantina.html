@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias Caseiras Vitorio</title>
+    <meta><link rel="stylesheet" href="cantina.css"></meta>
+</head>
+
+<body>
+    <!--apresentacao,titulos etc..-->
+    <main> 
+        <div class="titulo">
+    
+            <h1>Delicias Caseiras Vitorio</h1>
+            <script>
+               /*script da animacoa de maquina de escrever*/
+               function tyWriter (elemento) {
+                   const textoArray = elemento.innerHTML.split('');
+                    elemento.innerHTML = '';
+
+                    textoArray.forEach((letra, i) =>{
+                        setTimeout(() =>
+                            elemento.innerHTML += letra, 70 * i)
+
+                    });
+               }
+                
+                
+                const ttu= document.querySelector("h1");
+                tyWriter(ttu)
+
+
+            </script>
+                
+        </div>
+       
+        
+<!--menu de opcoes -->
+<nav id="menu horizontal">
+    <ul class="menu">
+        <li><a href="cantina.html">Home</a>
+        
+            <li><a href="https://www.instagram.com/delicias_caseiras_batista/"target="_black"> Contato</a>
+
+                <li><a href="#">Novidades</a>
+        
+    </ul>
+</nav>
+<!--logo e imgaens-->
+    <div class="logo">
+        <img src="comida1.jpg.jpg" alt="comida1">
+            <img src="comida2.jpg.jpg" alt="comida2">
+                <img src="comida3.jpg.jpg" alt="comida3">
+    
+    </div>
+
+    <div class="comida">
+        <!--imgagem posicionada como eu quis-->
+                    <img src="comida5.jpg.jpg" alt="comida5">
+    
+    </div>
+    </main>
+
+ 
+
+
+
+    
+</body>
+</html>
